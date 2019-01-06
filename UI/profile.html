@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Questioner | Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style_profile.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                    <a href="index.html"><h1><span class="highlight">Q</span>uestioner</h1></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="profile.html">Profile</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                    <li><a>Sign out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="feed">
+            <div class="box">
+                <u>Upcoming Meetups</u>
+                <br>
+                <marquee direction="up">
+                    <p>Python</p>
+                    <p>Ruby</p>
+                    <p>Java</p>
+                </marquee>
+            </div>
+        </section>
+
+    <section id="details">
+        <div class="simple-form">
+            <form id="profile">
+                <table cellpadding="10">
+                    <th colspan="2">USER DETAILS</th>
+                    <tr>
+                        <td>First Name: </td>
+                        <td>Eric</td>
+                    </tr>
+                    <tr>
+                        <td>Last Name: </td>
+                        <td>Maina</td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <td>Email Address: </Address></td>
+                        <td>eric_maina@hotmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Questions Posted: </Address></td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Questions Commented on: </Address></td>
+                        <td>6</td>
+                    </tr>
+                    
+                </table>
+            </form>
+        </div>
+    </section>
+    
+    <section id="main">
+        <h2>Top Questions</h2>
+        <div class="container">
+            <div class="row">
+                <h3><a class="question">How to test multiple variables against a value?</a></h3>
+                <div class="excerpt">
+                    I'm trying to make a function that will compare multiple variables to an integer and output a string of three letters. I was wondering if there was a way to translate this into Python.
+                </div><br>
+                 <div class="votes">
+                        <span><strong>8</strong></span>
+                        <input type="image" src="img\thumbs up.png">
+                        <span><strong>3</strong></span>
+                        <input type="image" src="img\thumbs down.png">
+                </div><br>
+                <a href="comment.html"><button type="button" class="button">Comments</button></a>
+            </div>
+            <div class="row">
+                    <h3><a class="question">Asking the user for input until they give a valid response</a></h3>
+                    <div class="excerpt">
+                            I am writing a program that must accept input from the user.
+                    </div><br>
+                     <div class="votes">
+                            <span><strong>7</strong></span>
+                        <input type="image" src="img\thumbs up.png">
+                        <span><strong>3</strong></span>
+                        <input type="image" src="img\thumbs down.png">
+                    </div><br>
+                    <a href="comment.html"><button type="button" class="button">Comments</button></a>
+            </div>
+            <div class="row">
+                    <h3><a class="question">How to clone or copy a list?</a></h3>
+                    <div class="excerpt">
+                            What are the options to clone or copy a list in Python?
+                    </div><br>
+                     <div class="votes">
+                            <span><strong>5</strong></span>
+                        <input type="image" src="img\thumbs up.png">
+                        <span><strong>4</strong></span>
+                        <input type="image" src="img\thumbs down.png">
+                    </div><br>
+                    <a href="comment.html"><button type="button" class="button">Comments</button></a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <footer>
+        <p>Questioner, Copyright &copy; 2019</p>
+    </footer>
+</body>
+</html>
